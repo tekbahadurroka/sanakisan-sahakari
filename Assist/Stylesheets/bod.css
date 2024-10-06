@@ -1,0 +1,52 @@
+/* this css code for bod cheirman */
+.main-card{
+    width: 155px;
+    height: 155px;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: -1px 0 10px black;
+    text-align: center;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 600px;
+    border-radius: 50%;
+}
+
+img{
+    width: 155px;
+    height:155px;
+    border-radius: 50%;
+}
+
+.main-card h3{
+    padding: 5px;
+    margin: 0;
+}
+/* This css code for directors*/
+.mgt-card{
+    width: 1250px;
+    height: 100px;
+    display: flex;
+    margin:10px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    /* background-color: blue; */
+}
+.box{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    box-shadow: -1px 0 10px #000;
+    /* background-color: black;  */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.box h3{
+    margin: 5px;
+    padding: 0;
+}

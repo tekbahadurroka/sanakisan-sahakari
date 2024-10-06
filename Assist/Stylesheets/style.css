@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f19499;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+}
+/* this css for header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    height: 100px;
+    margin-top: -0.4cm;
+}
+header img{
+    margin: 0;
+    padding: 0;
+    float: left;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 90px;
+    width: 120px;
+}
+header h1{
+    margin: 1px;
+    padding: 10px;
+}
+header h3{
+    margin: 2px;
+    padding: 2px;
+}
+header h5{
+    margin: 2px;
+    padding: 5px;
+}
+.date{
+    width: 100%;
+    height: 15px;
+    background-color: #3c09f5;
+    color: white;
+    text-align: right;
+    display: flex;
+    position: relative;
+    /* margin-top: 50px; */
+
+  
+}
+/* this css for nav bar */
+ul{
+    list-style-type: none;
+    background-color: rgb(10, 10, 10);
+    color: #f4f4f4;
+    margin-top: 0px;
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+ul li:hover{
+    background-color: #5a71f5;
+    color: #f4f4f4;
+}
+
+/* this css for sub menubar */
+.sub-menu{display: none;}
+ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    margin-left: -0.3cm;
+    margin-top: 0.26cm;
+}
+.sub-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.sub-menu ul li{
+    display: block;
+    
+}
+
+/* this css for mini sub menu */
+.loan-type{display: none;}
+
+.sub-menu ul li:hover .loan-type{
+    display: block;
+    position: absolute;
+    margin-left: 2.33cm;
+    margin-top: -0.75cm;
+    width: 140px;
+}
+/* this css for body */
+.container {
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+    padding: 20px;
+}
+.top{
+    text-align: justify;
+    margin-top: 10px;
+    /* width: 400px; */
+
+}
+.now_date{
+    /* width: 500px;
+    height: 400px; */
+    background-color: #000;
+    color: white;
+    margin: 40px;
+}
+/* this css box item */
+
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: -200px;
+    text-align: left;
+    border-radius: 10px;
+    width: 400px;
+    float: right;
+    margin-right: 50px;
+}
+.form{
+    padding: 0;
+    margin-left: 50px;
+    background-color: #4CAF50;
+    height: 350px;
+    width: 800px;
+    color: #f9f9f9;
+
+}
+.form label{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 2px;
+}
+.form input{
+    padding: 5px;
+    margin: 5px;
+    width: 33%;
+}
+.le{
+    margin-top: -150px;
+    margin-left: 400px;
+}
+.le input{
+    width: 80%;
+}
+.text{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+.text label{
+    display: block;
+}
+.btn input{
+    background-color: #3c09f5;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: -10px;
+}
+.ceo-card{
+    width: 1200px;
+    height: 500px;
+    /* background-color: #4CAF50; */
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ceo-card img{
+  float: left;
+  border-radius: 10%;
+  padding: 0 10px 0 5px;
+  margin: 0px 0 5px 0;
+  
+   
+
+}
+.ceo{
+    margin: 10px;
+    width: 1200px;
+    height: 500px;
+    box-shadow: -1px 0 10px #000;
+    /* background-color: black;  */
+    /* align-items: center;
+    justify-content: center; */
+    text-align: justify;
+    padding: 20px 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.ceo-card p{
+    /* margin-top: -100px; */
+    padding: 0 0 5px;
+}
+.notice{
+    margin: 20px;
+    margin-top: -200px;
+    padding: 0;
+    width: 1300px;
+    height: 800px;
+    /* background: #5a71f5; */
+    margin-top: 50px;
+    display: flex;
+}
+.news_list{
+    width: 100%;
+    height: 100%;
+    /* background-color: #b2b1b4; */
+    margin: 20px;
+    padding: 20px;
+
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #080808;
+    text-align: left;
+    padding: 8px;
+    color: rgb(17, 16, 17);
+}
+
+
+    /*
+.news_list ul li{
+    background-color: #3c09f5;
+    display: block;
+    width: 100%;
+} */
+/* this css for footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
